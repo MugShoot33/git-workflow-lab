@@ -1,8 +1,10 @@
 def hello_world():
     print("Hello, world!")
 
+
 def hello_name(name):
-print(f"Hello, {name}!")  # Kasıtlı indentation hatası
+    print(f"Hello, {name}!")
+
 
 if __name__ == "__main__":
     hello_world()
